@@ -1,0 +1,17 @@
+.navbar {
+    @apply bg-gray-800 shadow-lg;
+    height: 64px;
+}
+
+.navbar li {
+    @apply px-2 font-semibold;
+}
+
+.navbar li a {
+    @apply p-2
+}
+
+.navbar li a:hover {
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500 rounded;
+    color: white;
+}
